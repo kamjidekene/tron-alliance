@@ -1,4 +1,4 @@
-## Alliance Webpage
+## Tron Alliance Webpage
 
 Change your project from the ./projects/constants.ts file
 
