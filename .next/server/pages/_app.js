@@ -1,0 +1,66 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
+exports.modules = {
+
+/***/ "./pages/_app.tsx":
+/*!************************!*\
+  !*** ./pages/_app.tsx ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ AppWrapper)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-jsx/style */ \"styled-jsx/style\");\n/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var nextjs_progressbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! nextjs-progressbar */ \"nextjs-progressbar\");\n/* harmony import */ var nextjs_progressbar__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(nextjs_progressbar__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction App({ Component , pageProps  }) {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n        className: \"jsx-ad5602748c8af747\",\n        __source: {\n            fileName: \"C:\\\\Users\\\\USER\\\\Project\\\\tron-alliance\\\\pages\\\\_app.tsx\",\n            lineNumber: 6,\n            columnNumber: 5\n        },\n        __self: this,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((nextjs_progressbar__WEBPACK_IMPORTED_MODULE_2___default()), {\n                color: \"#29D\",\n                startPosition: 0.3,\n                stopDelayMs: 200,\n                height: 3,\n                showOnShallow: true,\n                __source: {\n                    fileName: \"C:\\\\Users\\\\USER\\\\Project\\\\tron-alliance\\\\pages\\\\_app.tsx\",\n                    lineNumber: 7,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Component, {\n                ...pageProps,\n                className: \"jsx-ad5602748c8af747\" + \" \" + (pageProps && pageProps.className != null && pageProps.className || \"\"),\n                __source: {\n                    fileName: \"C:\\\\Users\\\\USER\\\\Project\\\\tron-alliance\\\\pages\\\\_app.tsx\",\n                    lineNumber: 14,\n                    columnNumber: 7\n                },\n                __self: this\n            }),\n            (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default()), {\n                id: \"ad5602748c8af747\",\n                __self: this,\n                children: \"@import url(\\\"https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap\\\");\\n:root {--gap:16pt;\\n--page-background-color:#000910;\\n--alt-background-color:grey;\\n--text-main-color:#fff;\\n--text-secondary-color:grey;\\n--z-index-modal:1000;\\n--z-index-header:100;\\n--accents-1:#f9fafc;\\n--accents-2:#eaeaea;\\n--accents-3:#999;\\n--accents-4:#888;\\n--accents-5:#666;\\n--accents-6:#444;\\n--accents-7:#333;\\n--accents-8:#111}\\nhtml, body {padding:0;\\nmargin:0;\\nscroll-behavior:smooth}\\n::-webkit-scrollbar {display:none}\\n::selection {color:#000;\\nbackground:#FFF}\\na {color:inherit;\\n-webkit-text-decoration:none;\\ntext-decoration:none}\\np a {text-decoration:underline}\\n* {box-sizing:border-box;\\n-webkit-font-smoothing:antialiased;\\n-moz-osx-font-smoothing:grayscale;\\nmargin:0;\\npadding:0}\\nbody {padding:0;\\nmargin:0;\\nmargin:0;\\npadding:0;\\nfont-size:15px;\\nfont-weight:400;\\nline-height:1.8;\\ncolor:var(--text-main-color);\\nbackground:var(--page-background-color);\\nfont-family:\\\"Space Mono\\\", monospace}\\n.appear {-webkit-animation:appear 0.35s ease-out forwards;\\nanimation:appear 0.35s ease-out forwards;\\n-webkit-transform:translateY(25%);\\n-moz-transform:translateY(25%);\\n-ms-transform:translateY(25%);\\ntransform:translateY(25%);\\nopacity:0}\\n.appear.d025 {animation-delay:0.25s}\\n.appear.d05 {animation-delay:0.5s}\\n.appear.d075 {animation-delay:0.75s}\\n.appear.d1 {animation-delay:1s}\\n.appear.d125 {animation-delay:1.25s}\\n.appear.d150 {animation-delay:1.5s}\\n@keyframes appear {to {opacity:1;\\n-webkit-transform:translateY(0);\\n-moz-transform:translateY(0);\\n-ms-transform:translateY(0);\\ntransform:translateY(0)}}\\n@media only screen and (max-width:600px) {body {font-size:13px}}\\nh1 {font-weight:700}\\np {margin-bottom:10px}\\n* {box-sizing:border-box}\\ninput {padding:15px;\\nborder:none}\\nimg {max-width:100%}\"\n            })\n        ]\n    }));\n}\nfunction AppWrapper(props) {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(App, {\n        ...props,\n        __source: {\n            fileName: \"C:\\\\Users\\\\USER\\\\Project\\\\tron-alliance\\\\pages\\\\_app.tsx\",\n            lineNumber: 149,\n            columnNumber: 10\n        },\n        __self: this\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFDOEM7U0FFckNDLEdBQUcsQ0FBQyxDQUFDLENBQUNDLFNBQVMsR0FBRUMsU0FBUyxFQUFXLENBQUMsRUFBRSxDQUFDO0lBQ2hELE1BQU0sdUVBQ0hDLENBQUc7Ozs7Ozs7OztpRkFDREosMkRBQWE7Z0JBQ1pLLEtBQUssRUFBQyxDQUFNO2dCQUNaQyxhQUFhLEVBQUUsR0FBRztnQkFDbEJDLFdBQVcsRUFBRSxHQUFHO2dCQUNoQkMsTUFBTSxFQUFFLENBQUM7Z0JBQ1RDLGFBQWEsRUFBRSxJQUFJOzs7Ozs7OztpRkFFcEJQLFNBQVM7bUJBQUtDLFNBQVM7MkRBQVRBLFNBQVMsSUFBVEEsU0FBUyxzQkFBVEEsU0FBUzs7Ozs7Ozs7Ozs7Ozs7O0FBcUk5QixDQUFDO0FBQ2MsUUFBUSxDQUFDTyxVQUFVLENBQUNDLEtBQVUsRUFBRSxDQUFDO0lBQzlDLE1BQU0sc0VBQUVWLEdBQUc7V0FBS1UsS0FBSzs7Ozs7Ozs7QUFDdkIsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3Ryb24tYWxsaWFuY2UvLi9wYWdlcy9fYXBwLnRzeD8yZmJlIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB0eXBlIHsgQXBwUHJvcHMgfSBmcm9tIFwibmV4dC9hcHBcIjtcclxuaW1wb3J0IE5leHROcHJvZ3Jlc3MgZnJvbSBcIm5leHRqcy1wcm9ncmVzc2JhclwiO1xyXG5cclxuZnVuY3Rpb24gQXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfTogQXBwUHJvcHMpIHtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgPE5leHROcHJvZ3Jlc3NcclxuICAgICAgICBjb2xvcj1cIiMyOURcIlxyXG4gICAgICAgIHN0YXJ0UG9zaXRpb249ezAuM31cclxuICAgICAgICBzdG9wRGVsYXlNcz17MjAwfVxyXG4gICAgICAgIGhlaWdodD17M31cclxuICAgICAgICBzaG93T25TaGFsbG93PXt0cnVlfVxyXG4gICAgICAvPlxyXG4gICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XHJcbiAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICAgQGltcG9ydCB1cmwoXCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PVNwYWNlK01vbm86aXRhbCx3Z2h0QDAsNDAwOzAsNzAwOzEsNDAwOzEsNzAwJmRpc3BsYXk9c3dhcFwiKTtcclxuICAgICAgICA6cm9vdCB7XHJcbiAgICAgICAgICAtLWdhcDogMTZwdDtcclxuICAgICAgICAgIC0tcGFnZS1iYWNrZ3JvdW5kLWNvbG9yOiAjMDAwOTEwO1xyXG4gICAgICAgICAgLS1hbHQtYmFja2dyb3VuZC1jb2xvcjogZ3JleTtcclxuICAgICAgICAgIC0tdGV4dC1tYWluLWNvbG9yOiAjZmZmO1xyXG4gICAgICAgICAgLS10ZXh0LXNlY29uZGFyeS1jb2xvcjogZ3JleTtcclxuXHJcbiAgICAgICAgICAtLXotaW5kZXgtbW9kYWw6IDEwMDA7XHJcbiAgICAgICAgICAtLXotaW5kZXgtaGVhZGVyOiAxMDA7XHJcbiAgICAgICAgICAtLWFjY2VudHMtMTogI2Y5ZmFmYztcclxuICAgICAgICAgIC0tYWNjZW50cy0yOiAjZWFlYWVhO1xyXG4gICAgICAgICAgLS1hY2NlbnRzLTM6ICM5OTk7XHJcbiAgICAgICAgICAtLWFjY2VudHMtNDogIzg4ODtcclxuICAgICAgICAgIC0tYWNjZW50cy01OiAjNjY2O1xyXG4gICAgICAgICAgLS1hY2NlbnRzLTY6ICM0NDQ7XHJcbiAgICAgICAgICAtLWFjY2VudHMtNzogIzMzMztcclxuICAgICAgICAgIC0tYWNjZW50cy04OiAjMTExO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgaHRtbCxcclxuICAgICAgICBib2R5IHtcclxuICAgICAgICAgIHBhZGRpbmc6IDA7XHJcbiAgICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgICBzY3JvbGwtYmVoYXZpb3I6IHNtb290aDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIDo6LXdlYmtpdC1zY3JvbGxiYXIge1xyXG4gICAgICAgICAgZGlzcGxheTogbm9uZTtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIDo6c2VsZWN0aW9uIHtcclxuICAgICAgICAgIGNvbG9yOiAjMDAwO1xyXG4gICAgICAgICAgYmFja2dyb3VuZDogI0ZGRjtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGEge1xyXG4gICAgICAgICAgY29sb3I6IGluaGVyaXQ7XHJcbiAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBwIGEge1xyXG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBcclxuXHJcbiAgICAgICAgKiB7XHJcbiAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgICAgICAgLXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7XHJcbiAgICAgICAgICAtbW96LW9zeC1mb250LXNtb290aGluZzogZ3JheXNjYWxlO1xyXG4gICAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICAgICAgcGFkZGluZzogMDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGJvZHkge1xyXG4gICAgICAgICAgcGFkZGluZzogMDtcclxuICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICAgIHBhZGRpbmc6IDA7XHJcbiAgICAgICAgICBmb250LXNpemU6IDE1cHg7XHJcbiAgICAgICAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDEuODtcclxuICAgICAgICAgIGNvbG9yOiB2YXIoLS10ZXh0LW1haW4tY29sb3IpO1xyXG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tcGFnZS1iYWNrZ3JvdW5kLWNvbG9yKTtcclxuICAgICAgICAgIGZvbnQtZmFtaWx5OiBcIlNwYWNlIE1vbm9cIiwgbW9ub3NwYWNlO1xyXG4gICAgICAgIH1cclxuXHJcblxyXG4gICAgICAgIC5hcHBlYXJ7XHJcbiAgICAgICAgICBhbmltYXRpb246IGFwcGVhciAwLjM1cyBlYXNlLW91dCBmb3J3YXJkcztcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgyNSUpO1xyXG4gICAgICAgICAgb3BhY2l0eTogMDtcclxuICAgICAgICB9XHJcbiAgICAgICAgXHJcbiAgICAgICAgLmFwcGVhci5kMDI1e1xyXG4gICAgICAgICAgYW5pbWF0aW9uLWRlbGF5OiAwLjI1cztcclxuICAgICAgICB9XHJcbiAgICAgICAgLmFwcGVhci5kMDV7XHJcbiAgICAgICAgICBhbmltYXRpb24tZGVsYXk6IDAuNXM7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5hcHBlYXIuZDA3NXtcclxuICAgICAgICAgIGFuaW1hdGlvbi1kZWxheTogMC43NXM7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5hcHBlYXIuZDF7XHJcbiAgICAgICAgICBhbmltYXRpb24tZGVsYXk6IDFzO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgLmFwcGVhci5kMTI1e1xyXG4gICAgICAgICAgYW5pbWF0aW9uLWRlbGF5OiAxLjI1cztcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIC5hcHBlYXIuZDE1MHtcclxuICAgICAgICAgIGFuaW1hdGlvbi1kZWxheTogMS41cztcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIEBrZXlmcmFtZXMgYXBwZWFye1xyXG4gICAgICAgICAgdG97XHJcbiAgICAgICAgICAgIG9wYWNpdHk6IDE7XHJcbiAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNjAwcHgpIHtcclxuICAgICAgICAgIGJvZHkge1xyXG4gICAgICAgICAgICBmb250LXNpemU6IDEzcHg7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG4gICAgICAgIGgxIHtcclxuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBwIHtcclxuICAgICAgICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAqIHtcclxuICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBpbnB1dCB7XHJcbiAgICAgICAgICBwYWRkaW5nOiAxNXB4O1xyXG4gICAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgaW1nIHtcclxuICAgICAgICAgIG1heC13aWR0aDogMTAwJTtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQXBwV3JhcHBlcihwcm9wczogYW55KSB7XHJcbiAgcmV0dXJuIDxBcHAgey4uLnByb3BzfSAvPjtcclxufVxyXG4iXSwibmFtZXMiOlsiTmV4dE5wcm9ncmVzcyIsIkFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsImRpdiIsImNvbG9yIiwic3RhcnRQb3NpdGlvbiIsInN0b3BEZWxheU1zIiwiaGVpZ2h0Iiwic2hvd09uU2hhbGxvdyIsIkFwcFdyYXBwZXIiLCJwcm9wcyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.tsx\n");
+
+/***/ }),
+
+/***/ "nextjs-progressbar":
+/*!*************************************!*\
+  !*** external "nextjs-progressbar" ***!
+  \*************************************/
+/***/ ((module) => {
+
+module.exports = require("nextjs-progressbar");
+
+/***/ }),
+
+/***/ "react/jsx-runtime":
+/*!************************************!*\
+  !*** external "react/jsx-runtime" ***!
+  \************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-runtime");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/***/ ((module) => {
+
+module.exports = require("styled-jsx/style");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.tsx"));
+module.exports = __webpack_exports__;
+
+})();
