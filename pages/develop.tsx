@@ -16,21 +16,12 @@ const Develop: NextPage = () => {
             </a>.
           </p>
 
-          <h2 className="appear d025">Tron Testnet</h2>
-          <p className="appear d05">
-            Tron has it&apos;s own testnet (chain id: 9000) that you can
-            add here:{" "}
-            <a href="https://chainlist.org/">https://chainlist.org/</a>.
-            Transactions can be visualized through{" "}
-            <a href="https://evm.Tron.dev/">
-            https://evm.Tron.dev/
-            </a>.
-          </p>
+         
 
           <h2 className="appear d075">NFT Template</h2>
           <p className="appear d1">
             The Tron Alliance created a{" "}
-            <a href="https://github.com/Elvolution20/Tron_Phone_Mint/">
+            <a href="https://github.com/">
               NFT boilerplate
             </a>{" "}
             that you can use to launch your smartcontract and mint NFTs
